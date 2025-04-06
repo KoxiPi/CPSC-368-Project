@@ -1,15 +1,15 @@
 # CPSC 368 Final Project - Telehealth Trends Analysis
 
 ## Group Members
-- Shenglong Chen
 - Heather Lu
 - Kaiwei Liu
+- Shenglong Chen
 
 ## Research Questions
-1. **(Shenglong)** How has telehealth use changed over time?  
+1. How has telehealth use changed over time?  
    Specifically, is there a significant difference in the average percentage of telehealth users between the years 2020–2024?
-2. **(Heather)** Are there any patterns between telehealth use and geographical location (Urban vs. Rural)?
-3. **(Kaiwei)** How does the patient’s age impact telehealth use?
+2. Are there any patterns between telehealth use and geographical location (Urban vs. Rural)?
+3. How does the patient’s age impact telehealth use?
 
 ## Project Files
 
