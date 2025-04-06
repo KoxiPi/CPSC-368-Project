@@ -6,10 +6,14 @@
 - Shenglong Chen
 
 ## Research Questions
-1. How has telehealth use changed over time?  
-   Specifically, is there a significant difference in the average percentage of telehealth users between the years 2020–2024?
-2. Are there any patterns between telehealth use and geographical location (Urban vs. Rural)?
-3. How does the patient’s age impact telehealth use?
+1. How has telehealth use changed over time? Specifically, is there a significant difference in the average percentage of telehealth users between the years 2020–2024?
+
+
+2. Is there a significant difference in the average number of telehealth visits between rural and urban areas? How does usage vary across states?
+
+
+3. Is there a significant difference in the frequency of telehealth use across different age groups? Are younger beneficiaries more likely to use telehealth than older ones?
+
 
 ## Project Files
 
