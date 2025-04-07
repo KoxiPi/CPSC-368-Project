@@ -19,16 +19,17 @@
 
 | Filename/Folder                             | Description |
 |--------------------------------------------|-------------|
-| `data/`                                     | Contains all raw and cleaned datasets used for analysis |
-| `medicare_cleaned.csv`                      | Cleaned Medicare dataset with telehealth usage by year |
-| `telemedicine_cleaned.csv`                  | Cleaned NCHS telemedicine usage dataset |
-| `telemedicine_group_By_Age.csv`             | Grouped telemedicine data by age categories |
-| `telemedicine_group_By_State.csv`           | Grouped telemedicine data by U.S. states |
-| `telemedicine_group_National_Estimate.csv`  | National-level summary of telemedicine use |
-| `Medicare_Telehealth_Trends_Q2_2024.csv`    | Original Medicare trends dataset |
-| `Telemedicine_Use_in_the_Last_4_Weeks.csv`  | Original survey-based telehealth data |
-| `medicare_cleaned.sql`                      | SQL queries used to clean and filter Medicare dataset |
-| `telemedicine_groups.sql`                   | SQL used to aggregate telemedicine groups by age, state and national estimate |
+| `data/medicare_cleaned.csv`                      | Cleaned Medicare dataset with telehealth usage by year |
+| `data/telemedicine_cleaned.csv`                  | Cleaned NCHS telemedicine usage dataset |
+| `data/telemedicine_group_By_Age.csv`             | Grouped telemedicine data by age categories |
+| `data/telemedicine_group_By_State.csv`           | Grouped telemedicine data by U.S. states |
+| `data/telemedicine_group_National_Estimate.csv`  | National-level summary of telemedicine use |
+| `data/Medicare_Telehealth_Trends_Q2_2024.csv`    | Original Medicare trends dataset |
+| `data/Telemedicine_Use_in_the_Last_4_Weeks.csv`  | Original survey-based telehealth data |
+| `data/medicare_cleaned.sql`                      | SQL queries used to clean and filter Medicare dataset |
+| `data/telemedicine_groups.sql`                   | SQL used to aggregate telemedicine groups by age, state and national estimate |
+| `sqlFile/medicare_cleaned.sql`                      | Medicare dataset SQL file (with keys) ctually used in SQL plus  |
+| `sqlFile/telemedicine_groups.sql`                   | Telemedicine groups SQL file (with keys) used used in SQL plus  |
 | `EDAcode.ipynb`                             | Jupyter notebook for data analysis and visualizations |
 | `dataCleaning.ipynb`                        | Jupyter notebook for preprocessing and cleaning raw data |
 | `README.md`                                 | Project description and instructions (this file) |
@@ -37,7 +38,14 @@
 
 ## How to Run the Code
 
+### Jupyter notebooks
 1. **Install Python** if you haven’t already.
 2. Open the Jupyter notebooks in order:
    - `dataCleaning.ipynb` (first): Cleans raw datasets.
    - `EDAcode.ipynb` (second): Performs analysis, creates visualizations.
+
+### SQL Plus
+1. Use SSH to connect to remote.students.cs.ubc.ca using your CWL ID.
+2. Upload 2 files in `sqlFile` folder to your SQL plus server.
+3. Login in your account to the SQL plus server.
+4. Query according to the provided query command.
