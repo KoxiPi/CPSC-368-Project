@@ -31,7 +31,7 @@
 | `sqlFile/medicare_cleaned.sql`                      | Medicare dataset SQL file (with keys) ctually used in SQL plus  |
 | `sqlFile/telemedicine_groups.sql`                   | Telemedicine groups SQL file (with keys) used used in SQL plus  |
 | `EDAcode.ipynb`                             | Jupyter notebook for data analysis and visualizations |
-| `dataCleaning.ipynb`                        | Jupyter notebook for preprocessing and cleaning raw data |
+| `dataCleaning.ipynb`                        | Jupyter notebook for preprocessing, cleaning raw data and generate the sql source file |
 | `README.md`                                 | Project description and instructions (this file) |
 
 ---
@@ -43,9 +43,10 @@
 2. Open the Jupyter notebooks in order:
    - `dataCleaning.ipynb` (first): Cleans raw datasets.
    - `EDAcode.ipynb` (second): Performs analysis, creates visualizations.
+   - (You may need to modify the file directory in your code to run it)
 
 ### SQL Plus
 1. Use SSH to connect to remote.students.cs.ubc.ca using your CWL ID.
 2. Upload 2 files in `sqlFile` folder to your SQL plus server.
 3. Login in your account to the SQL plus server.
-4. Query according to the provided query command.
+4. Query according to the SQL query command.
