@@ -7,13 +7,13 @@
 
 ## Research Questions
 1. How has telehealth use changed over time? Specifically, is there a significant difference in the average percentage of telehealth users between the years 2020–2024?
-
+SQL queries: SQLqueries.ipynb  ->  Block 1
 
 2. Is there a significant difference in the average number of telehealth visits between rural and urban areas? How does usage vary across states?
-
+SQL queries: SQLqueries.ipynb  ->  Block 2
 
 3. Is there a significant difference in the frequency of telehealth use across different age groups? Are younger beneficiaries more likely to use telehealth than older ones?
-
+SQL queries: SQLqueries.ipynb  ->  Block 3
 
 ## Project Files
 
@@ -32,6 +32,7 @@
 | `sqlFile/telemedicine_groups.sql`                   | Telemedicine groups SQL file (with keys) used used in SQL plus  |
 | `EDAcode.ipynb`                             | Jupyter notebook for data analysis and visualizations |
 | `dataCleaning.ipynb`                        | Jupyter notebook for preprocessing, cleaning raw data and generate the sql source file |
+| `SQLqueries.ipynb`                          | Jupyter notebook for SQL queries for all research questions |
 | `README.md`                                 | Project description and instructions (this file) |
 
 ---
@@ -49,4 +50,4 @@
 1. Use SSH to connect to remote.students.cs.ubc.ca using your CWL ID.
 2. Upload 2 files in `sqlFile` folder to your SQL plus server.
 3. Login in your account to the SQL plus server.
-4. Query according to the SQL query command.
+4. Query according to the SQL query command in the file `SQLqueries.ipynb`.
