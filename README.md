@@ -8,15 +8,15 @@
 ## Research Questions
 1. How has telehealth use changed over time? Specifically, is there a significant difference in the average percentage of telehealth users between the years 2020–2024?
 
-SQL queries: SQLqueries.ipynb  ->  Block 1
+   SQL queries: SQLqueries.ipynb  ->  Block 1
 
 2. Is there a significant difference in the average number of telehealth visits between rural and urban areas? How does usage vary across states?
 
-SQL queries: SQLqueries.ipynb  ->  Block 2
+   SQL queries: SQLqueries.ipynb  ->  Block 2
 
 3. Is there a significant difference in the frequency of telehealth use across different age groups? Are younger beneficiaries more likely to use telehealth than older ones?
 
-SQL queries: SQLqueries.ipynb  ->  Block 3
+   SQL queries: SQLqueries.ipynb  ->  Block 3
 
 ## Project Files
 
